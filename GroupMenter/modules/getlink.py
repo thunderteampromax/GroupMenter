@@ -7,7 +7,7 @@ from telegram.ext.dispatcher import run_async
 from cinderella.modules.helper_funcs.chat_status import bot_admin
 from cinderella.modules.helper_funcs.filters import CustomFilters
 
-from cinderella import dispatcher
+from GroupMenter import dispatcher
 import random, re
 
 @run_async
