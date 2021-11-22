@@ -94,7 +94,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Help ", callback_data="help_back"
+            text="𝐇𝐞𝐥𝐩𝐬 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", callback_data="help_back"
         ),
     ],
 ]
