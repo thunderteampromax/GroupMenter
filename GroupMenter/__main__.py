@@ -74,32 +74,35 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey there! My name is Group Menter.
-I'm here to help you manage your groups!
+Hey there! My name is Thunder GoHelp.
+I'm an powerful advance Group Management Bot I got Updated From 
+V2.0 Now I am updated to V3.6
 
-Hit /help to find out more about how to use me to my full potential.
+Type /help to find out more about how to use me to my full potential.
+Bot Version :- V3.6 
+Status :- Active
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD TO YOUR GROUP ➕️", url="https://t.me/GroupMenterRobot?startgroup=true"),
+            text="➕ 𝐀𝐝𝐝 𝐆𝐨𝐇𝐞𝐥𝐩 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕", url="https://t.me/thundergohelpbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Updates", url="https://t.me/GroupMenterUpdates"),
-        InlineKeyboardButton(text="Support", url="https://t.me/GroupMenterGroup"),
+        InlineKeyboardButton(text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/thundergohelpupdates"),
+        InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/thundergotechnologysupport"),
     ],
     [
         InlineKeyboardButton(
-            text="Commands ❔", callback_data="help_back"
+            text="Help ", callback_data="help_back"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-Hey There! My name is Group Menter.
-I'm here to help you manage your groups!
+Hey There! My name is Thunder GoHelp.
+I'm a powerful advance Group management Bot I got Updated From V2.0 Now I am updated to V3.6
 
 Commands available:
 × /start: Start the bot
@@ -110,13 +113,12 @@ All commands can either be used with / OR !.
 """
 
 
-DONATE_STRING = """Hey Thanks for your thought of donating me!
-When you donate, all the fund goes towards my development which makes on fast and responsive.
-Your donation might also me get me a new feature or two, which I wasn't able to get due to server limitations.
+DONATE_STRING = """Hey we don't need any Donations Now we ask you to join to 
+our support group and updates channel it will be helpful to us
 
-All the fund would be put into my services such as database, storage and hosting!.
+Thanks For Your Support
 
-You Can donate to this bot via [PayPal](paypal.me/vivektvp) Or [Buy Me a Coffee.](https://ko-fi.com/VIVEKTP)"""
+You Can donate to this bot via [Support Group](https://t.me/thundergotechnologysupport) Or [Updates Channel](https://t.me/thundergohelpupdates)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -315,7 +317,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="「 GO BACK 」", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="[ GO BACK ]", callback_data="help_back")]]
                 ),
             )
 
@@ -361,7 +363,7 @@ def groupmenter_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "groupmenter":
         query.message.edit_text(
-            text=""" 🤖 I'm *Group Menter*, a powerful group management bot built to help you manage your group easily.
+            text="""  I'm *Thunder GoHelp*, a powerful group management bot built to help you manage your group easily.
                  
 ❍ I can restrict users.
                  
@@ -374,9 +376,9 @@ def groupmenter_about_callback(update: Update, context: CallbackContext):
 ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  
 ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Group Menter's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/TeamGroupMenter/GroupMenter).
-                 If you have any question about Group Menter, let us know at @GroupMenterUpdates.""",
+                 \n_Thunder GoHelp licensed under the GNU General Public License v3.6_
+                 Here is the [Source Code](https://telegra.ph/Thunder-GoHelp-11-18).
+                 If you have any question about Thunder GoHelp, let us know at @thundergotechnologysupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -402,8 +404,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Group Menter*
-                 \nHere is the [Source Code](https://github.com/TeamGroupMenter/GroupMenter) .""",
+            text=""" Hi... I'm *Thunder GoHelp*
+                 \nHere is the [Source Code](https://telegra.ph/Thunder-GoHelp-11-18) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -650,9 +652,9 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1414146649 and DONATION_LINK:
+        if OWNER_ID != 2119454940 and DONATION_LINK:
             update.effective_message.reply_text(
-                "You can also donate to the person currently running me "
+                "We Don't need any Donations right Now "
                 "[here]({})".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
@@ -760,3 +762,4 @@ if __name__ == "__main__":
     telethn.start(bot_token=TOKEN)
     pbot.start()
     main()
+
