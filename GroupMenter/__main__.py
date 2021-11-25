@@ -89,7 +89,7 @@ buttons = [
             text="➕ 𝐀𝐝𝐝 𝐆𝐨𝐇𝐞𝐥𝐩 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕", url="https://t.me/thundergohelpbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/thundergohelpupdates"),
+        InlineKeyboardButton(text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/thunderprojectsupdates"),
         InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/thundergotechnologysupport"),
     ],
     [
