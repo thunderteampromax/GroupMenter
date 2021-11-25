@@ -86,7 +86,7 @@ def _check_member(client, message):
             except UserNotParticipant:
                 try:
                     sent_message = message.reply_text(
-                        "Welcome {} 🙏 \n **You havent joined our @{} Channel yet** 😭 \n \nPlease Join [Our Channel](https://t.me/{}) and hit the **UNMUTE ME** Button. \n \n ".format(
+                        "Welcome {}  \n **You havent joined our @{} Channel yet** 😭 \n \nPlease Join [Our Channel](https://t.me/{}) and Click the **UNMUTE ME** Button. \n \n ".format(
                             message.from_user.mention, channel, channel
                         ),
                         disable_web_page_preview=True,
@@ -197,5 +197,6 @@ __help__ = """
  ❍ /fsub disable - To turn of ForceSubscribe..
   💡If you disable fsub, you need to set again for working.. /fsub {channel username} 
  ❍ /fsub clear - To unmute all members who muted by me.
+𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 :- 𝐓𝐡𝐮𝐧𝐝𝐞𝐫 𝐓𝐞𝐚𝐦
 """
 __mod_name__ = "F SUB"
