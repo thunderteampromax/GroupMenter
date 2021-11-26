@@ -76,10 +76,10 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hey there! My name is Thunder GoHelp.
 I'm an powerful advance Group Management Bot I got Updated From 
-V2.0 Now I am updated to V3.6
+V3.6.0 Now I am updated to V3.6.9
 
 Type /help to find out more about how to use me to my full potential.
-Bot Version :- V3.6 
+Bot Version :- V3.6.9
 Status :- Active
 """
 
