@@ -64,7 +64,7 @@ def _onUnMuteRequest(client, cb):
             else:
                 client.answer_callback_query(
                     cb.id,
-                    text="❗ Warning! Don't press the button when you cn talk.",
+                    text="You Have to Join to our Channel to chat in this Group ⚠️ warning 𝐈𝐟 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 𝐁𝐞𝐞𝐧 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞𝐝 𝐓𝐡𝐞𝐧 𝐉𝐮𝐬𝐭 𝐋𝐞𝐚𝐯𝐞 𝐈𝐭. Thanks Thunder Team",
                     show_alert=True,
                 )
 
