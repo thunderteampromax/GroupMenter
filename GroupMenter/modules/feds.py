@@ -2347,9 +2347,9 @@ def get_chat(chat_id, chat_data):
 
 
 @run_async
-def fed_owner_help(update: Update, context: CallbackContext):
+def fed_owner_help_help_owner_ninety_six(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
-        """*👑 Fed Owner Only:*
+        """*Join Thunder Shock:*
  • `/newfed <fed_name>`*:* Creates a Federation, One allowed per user
  • `/renamefed <fed_id> <new_fed_name>`*:* Renames the fed id to a new name
  • `/delfed <fed_id>`*:* Delete a Federation, and any information related to it. Will not cancel blocked users
@@ -2406,8 +2406,9 @@ You can even designate federation admins, so your trusted admin can ban all the 
 You can join Federation Thunder Shock Below
 ❍ To join Federation Thunder Shock Copy This and paste in Your Group 👇👇
 /joinfed 7ecf0044-9643-48f4-8dbc-e52852c06de4
-If Thunder Shock Is applied bymistakenly You Can Appeal By Joining
-
+If Thunder Shock Is applied bymistakenly You Can Appeal By Joining https://t.me/thunderappeal and appeal.
+✪ /fedadminhelp*:* Provides help for fed administration commands
+✪ /feduserhelp*:* Provides help for commands anyone can use
 
 """
 
