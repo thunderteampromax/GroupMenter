@@ -81,7 +81,7 @@ UNFBAN_ERRORS = {
 
 
 @run_async
-def new_fedupdatesprohello(update: Update, context: CallbackContext):
+def new_fed(update: Update, context: CallbackContext):
     chat = update.effective_chat
     user = update.effective_user
     message = update.effective_message
