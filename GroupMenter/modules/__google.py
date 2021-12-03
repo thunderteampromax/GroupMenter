@@ -35,7 +35,7 @@ async def _(event):
     if event.fwd_from:
         return
     
-    webevent = await event.reply("searching........")
+    webevent = await event.reply("🔎Searching")
     match = event.pattern_match.group(1)
     page = re.findall(r"page=\d+", match)
     try:
@@ -282,6 +282,6 @@ __help__ = """
  ❍ /img <text>*:* Search Google for images and returns them\nFor greater no. of results specify lim, For eg: `/img hello lim=10`
  ❍ /app <appname>*:* Searches for an app in Play Store and returns its details.
  ❍ /reverse: Does a reverse image search of the media which it was replied to.
- ❍ ThunderGoHelp <query>*:* ThunderGoHelp answers the query
-  💡Ex: `Masha where is India?`
+ ❍ GroupMenter <query>*:* GroupMenter answers the query
+  💡Ex: `where is India?`
 """
