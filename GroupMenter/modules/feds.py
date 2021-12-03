@@ -87,7 +87,7 @@ def new_fed(update: Update, context: CallbackContext):
     message = update.effective_message
     if chat.type != "private":
         update.effective_message.reply_text(
-            "You Can only join Federation Thunder Shock If you want to join use me privately and click the module feds and follow the instructions."
+            "Federations can only be created by privately messaging me."
         )
         return
     if len(message.text) == 1:
@@ -493,7 +493,7 @@ def fed_info(update: Update, context: CallbackContext):
     chat = update.effective_chat
     info = sql.get_fed_info(fed_id)
 
-    text = "<b>ℹ️ Federation Information:</b>"
+    text = "<b>Federation Information:</b>"
     text += "\nFedID: <code>{}</code>".format(fed_id)
     text += "\nName: {}".format(info["fname"])
     text += "\nCreator: {}".format(mention_html(owner.id, owner_name))
@@ -624,8 +624,8 @@ def fed_ban(update: Update, context: CallbackContext):
         message.reply_text("Wolves cannot be fed banned!")
         return
 
-    if user_id in [2089976472, 2119454940]:
-        message.reply_text("You can't attack Telegram's native tech!")
+    if user_id in [777000, 1087968824]:
+        message.reply_text("Fool! You can't attack Telegram's native tech!")
         return
 
     try:
@@ -659,7 +659,7 @@ def fed_ban(update: Update, context: CallbackContext):
 
     if fban:
         fed_name = info["fname"]
-        #https://t.me/thundergotechnologysupport  // https://t.me/thundergotechnologysupport
+        # https://t.me/OnePunchSupport/41606 // https://t.me/OnePunchSupport/41619
         # starting = "The reason fban is replaced for {} in the Federation <b>{}</b>.".format(user_target, fed_name)
         # send_message(update.effective_message, starting, parse_mode=ParseMode.HTML)
 
@@ -2347,9 +2347,9 @@ def get_chat(chat_id, chat_data):
 
 
 @run_async
-def fed_owner_help_help_owner_ninety_six(update: Update, context: CallbackContext):
+def fed_owner_help(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
-        """*Join Thunder Shock:*
+        """*👑 Fed Owner Only:*
  • `/newfed <fed_name>`*:* Creates a Federation, One allowed per user
  • `/renamefed <fed_id> <new_fed_name>`*:* Renames the fed id to a new name
  • `/delfed <fed_id>`*:* Delete a Federation, and any information related to it. Will not cancel blocked users
