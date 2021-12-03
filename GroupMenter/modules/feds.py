@@ -2402,11 +2402,12 @@ But then you have many groups, and you don't want this spammer to be in one of y
 *No longer!* With Federation, you can make a ban in one chat overlap with all other chats.\n
 You can even designate federation admins, so your trusted admin can ban all the spammers from chats you want to protect.\n
 
-*Commands:*\n
-Feds are now divided into 3 sections for your ease. 
-❍ /fedownerhelp*:* Provides help for fed creation and owner only commands
-❍ /fedadminhelp*:* Provides help for fed administration commands
-❍ /feduserhelp*:* Provides help for commands anyone can use
+*Join Federation Thunder Shock:*\n
+You can join Federation Thunder Shock Below
+❍ To join Federation Thunder Shock Copy This and paste in Your Group 👇👇
+/joinfed 7ecf0044-9643-48f4-8dbc-e52852c06de4
+If Thunder Shock Is applied bymistakenly You Can Appeal By Joining
+
 
 """
 
