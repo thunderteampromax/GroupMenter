@@ -81,13 +81,13 @@ UNFBAN_ERRORS = {
 
 
 @run_async
-def new_fed(update: Update, context: CallbackContext):
+def new_fedupdatesprohello(update: Update, context: CallbackContext):
     chat = update.effective_chat
     user = update.effective_user
     message = update.effective_message
     if chat.type != "private":
         update.effective_message.reply_text(
-            "Federations can only be created by privately messaging me."
+            "You Can only join Federation Thunder Shock If you want to join use me privately and click the module feds and follow the instructions."
         )
         return
     if len(message.text) == 1:
