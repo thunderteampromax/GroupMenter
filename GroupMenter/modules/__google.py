@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import urllib
-from GroupMenter import telethn as tbot
+from  GroupMenter import telethn as tbot
 import glob
 import io
 import os
@@ -282,6 +282,10 @@ __help__ = """
  ❍ /img <text>*:* Search Google for images and returns them\nFor greater no. of results specify lim, For eg: `/img hello lim=10`
  ❍ /app <appname>*:* Searches for an app in Play Store and returns its details.
  ❍ /reverse: Does a reverse image search of the media which it was replied to.
- ❍ GroupMenter <query>*:* GroupMenter answers the query
-  💡Ex: `where is India?`
+ ❍ /gps <location>*:* Get gps location.
+ ❍ /github <username>*:* Get information about a GitHub user.
+ ❍ /country <country name>*:* Gathering info about given country
+ ❍ /imdb <Movie name>*:* Get full info about a movie with imdb.com
+ ❍ Thunder GoHelp <query>*:* Thunder GoHelp answers the query
+  💡Ex: `Thunder GoHelp where is Sri Lanka?`
 """
