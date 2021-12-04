@@ -109,7 +109,7 @@ async def okgoogle(img):
         try:
             image = Image.open(photo)
         except OSError:
-            await dev.edit("`Unsupported sexuality, most likely.`")
+            await dev.edit("`Unsupported most likely.`")
             return
         name = "okgoogle.png"
         image.save(name, "PNG")
@@ -126,7 +126,7 @@ async def okgoogle(img):
                 "\n`Parsing source now. Maybe.`"
             )
         else:
-            await dev.edit("`Google told me to fuck off.`")
+            await dev.edit("`Google Told me to Wait`")
             return
 
         os.remove(name)
@@ -137,7 +137,7 @@ async def okgoogle(img):
         if guess and imgspage:
             await dev.edit(f"[{guess}]({fetchUrl})\n\n`Looking for this Image...`")
         else:
-            await dev.edit("`Can't find this piece of shit.`")
+            await dev.edit("`Can't find this piece`")
             return
 
         if img.pattern_match.group(1):
