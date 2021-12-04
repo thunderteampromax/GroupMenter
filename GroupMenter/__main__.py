@@ -118,7 +118,7 @@ our support group and updates channel it will be helpful to us
 
 Thanks For Your Support
 
-You Can donate to this bot via [Support Group](https://t.me/thundergotechnologysupport) Or [Updates Channel](https://t.me/thundergohelpupdates)"""
+You Can donate to this bot via [Support Group](https://t.me/thundergotechnologysupport) Or [Updates Channel](https://t.me/thunderprojectsupdates)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
