@@ -48,5 +48,5 @@ PHONE_HANDLER = CommandHandler("phone", phone)
 dispatcher.add_handler(PHONE_HANDLER)
 
 
-__command_list__ = ["PHONE"]
+__mod_name__ = ["PHONE"]
 __handlers__ = [PHONE_HANDLER]
