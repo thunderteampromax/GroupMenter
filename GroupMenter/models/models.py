@@ -2,7 +2,7 @@ from tortoise.models import Model
 from tortoise import fields
 from uuid import uuid4
 from textwrap import dedent
-from olgram.settings import DatabaseSettings
+from GroupMenter.settings import DatabaseSettings
 
 
 class MetaInfo(Model):
