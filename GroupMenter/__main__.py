@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey there! My name is Thunder GoHelp.
+Hey there! My name is Thunder GoHep.
 I'm an powerful advance Group Management Bot I got Updated From 
 V3.6.9 Now I am updated to V4.2.0
 
