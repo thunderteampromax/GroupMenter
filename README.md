@@ -1,4 +1,4 @@
-# GroupMenter
+# GroupMente
 
 An PowerFull Group Manager Bot. Written In Pytelethon.
 
