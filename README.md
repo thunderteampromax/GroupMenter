@@ -1,4 +1,4 @@
-# Alpha Ment
+# Thunder GoHelp
 
 An PowerFull Group Manager Bot. Written In Pytelethon.
 
